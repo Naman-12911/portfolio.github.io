@@ -1,0 +1,82 @@
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--secondry);
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: var(--primary);
+}
+section.freelancer button a {
+  background: var(--primary);
+  color: var(--secondry);
+  text-decoration: none;
+}
+.btn-secondry {
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-secondry:hover {
+  background: var(--primary);
+  color: var(--secondry);
+  cursor: pointer;
+}
+
+.flex-1 {
+  flex: 1;
+  color: var(--dark);
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+section.social a .fab fa-linkedin-in {
+  height: 100px;
+  width: 100px;
+}
+.site-main-wrapper .mobile-nav {
+  background-color: var(--dark);
+}
+.site-main-wrapper .mobile-nav ul a {
+  color: var(--light);
+}
+.site-main-wrapper .mobile-nav ul li {
+  margin-bottom: 1rem;
+}
+.site-main-wrapper .mobile-nav ul a:hover {
+  color: var(--ternary);
+}
+.site-main-wrapper .logo-nav {
+  margin-top: -4rem;
+  margin-bottom: 3rem;
+}
+section.about .social img {
+  width: 4rem;
+  margin-left: 1.5rem;
+}
